@@ -1,0 +1,60 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 80vw;
+    }
+    
+    .left-side-data img {
+        height: 14vh;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .container {
+        width: 90vw;
+    }
+
+    .switch-temp-button {
+        height: 5vh;
+        padding-right: 7.5vw;
+    }
+
+    
+
+    .switch-button{
+        width: 6vw;
+    }
+
+    .form {
+        height: 5vh;
+    }
+
+    .search {
+        width: 70%;
+    }
+
+    .left-side-data img {
+        height: 10vh;
+    }
+
+    .forecast-button-container {
+        height: 5vh;
+    }
+
+    .select-day-left-data img {
+        height: 13vh;
+        width: 15vw;
+    }
+
+    .select-day-left-data p {
+        font-size: 1.5rem;
+    }
+
+    .select-day-right-data {
+        margin-left: 1vw;
+    }
+
+    .select-day-right-data li {
+        font-size: 1rem;
+    }
+}
