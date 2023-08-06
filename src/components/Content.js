@@ -227,6 +227,7 @@ const Content = () => {
                                         </div>
                                         <div className="select-day-right-data">
                                             <li>Date: {forecastData.forecast.forecastday[selectedDayIndex].date}</li>
+                                            <li>Avg Humidity: {forecastData.forecast.forecastday[selectedDayIndex].day.avghumidity}</li>
                                             <li>Max Temp: {renderTemperature(forecastData.forecast.forecastday[selectedDayIndex].day.maxtemp_c)}</li>
                                             <li>Min Temp: {renderTemperature(forecastData.forecast.forecastday[selectedDayIndex].day.mintemp_c)}</li>
                                             <li>Condition: {forecastData.forecast.forecastday[selectedDayIndex].day.condition.text}</li>
